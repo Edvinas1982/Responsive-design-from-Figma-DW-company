@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    max-width: 1124px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.hero {
+    background-image: url("img/Background.jpg");
+    max-height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left {
+    display: flex;
+}
+.contact_us,
+.get_started {
+    display: inline-block;
+    font-size: 18px;
+    padding: 16px 66px;
+    line-height: 27px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background: #9B9BCA;
+    transition: all ease 0.3s;
+}
