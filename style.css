@@ -9,7 +9,7 @@
 }
 .hero {
     background-image: url("img/Background.jpg");
-    max-height: 50vh;
+    max-height: 75vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,8 +55,52 @@ header img {
 h1 {
     font-family: 'DM Serif Display', serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 56px;
     line-height: 100%;
     color: #696A86;
+}
+h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #696A86;
+}
+h2 {
+    margin-top: 207px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color: #626780;
+    text-align: center;
+}
+.bottom_information h4 {
+    text-align: center;
+}
+footer {
+    margin-top: 93px;
+    display: flex;
+    text-align: center;
+}
+h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    color: #626780;
+    margin-top: 21px;
+    margin-bottom: 12px;
+}
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #626780;
+}
+.block {
+    width: 30%;
+    margin-bottom: 80px;
 }
