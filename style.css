@@ -1,3 +1,6 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
 .container {
     width: 100%;
     max-width: 1124px;
@@ -17,8 +20,21 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+header a {
+    padding-right: 58px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #717784;
+    text-decoration: none;
+}
+header img {
+    margin-right: 286px;
+}
 .header_left {
     display: flex;
+    align-items: center;
 }
 .contact_us,
 .get_started {
@@ -32,4 +48,15 @@ header {
     border-radius: 10px;
     background: #9B9BCA;
     transition: all ease 0.3s;
+}
+.main_title {
+    margin-top: 221px;
+}
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 100%;
+    color: #696A86;
 }
