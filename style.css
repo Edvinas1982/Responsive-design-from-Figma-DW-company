@@ -78,6 +78,8 @@ h2 {
 }
 .bottom_information h4 {
     text-align: center;
+    width: 718px;
+    margin-left: 190px;
 }
 footer {
     margin-top: 93px;
