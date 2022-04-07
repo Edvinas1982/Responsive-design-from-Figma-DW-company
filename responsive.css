@@ -48,6 +48,15 @@
         width: 100%;
         padding: 0 31px 0 30px;
     }
+    footer {
+        display: block;
+        margin-top: 72px;
+        padding-bottom: 148px;
+    }
+    .block {
+        width: 100%;
+        margin-bottom: 52px;
+    }
 }
 @media (min-width: 361px) {
     .hamburger_logo {
